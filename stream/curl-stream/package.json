@@ -1,0 +1,21 @@
+{
+  "name": "curl-live",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "FORCE_COLOR=1 node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "@ffmpeg-installer/ffmpeg": "^1.1.0",
+    "colors": "1.4.0",
+    "cors": "^2.8.5",
+    "etag": "^1.8.1",
+    "fluent-ffmpeg": "^2.1.2",
+    "mz": "2.7.0"
+  },
+  "devDependencies": {
+    "nodemon": "1.18.7"
+  },
+  "license": "MIT"
+}

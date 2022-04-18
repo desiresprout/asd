@@ -1,0 +1,19 @@
+{
+  "name": "stream-study",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "chorme-debug": "node --inspect-brk index.js",
+    "debug": "nodemon --inspect index.js",
+    "promise": "node ./stream-to-promise/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^2.0.12",
+    "pump": "^3.0.0"
+  }
+}
